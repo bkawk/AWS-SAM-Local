@@ -3,7 +3,7 @@ Transform: AWS::Serverless-2016-10-31
 Resources:
   LoginTable:
     Type: "AWS::Serverless::SimpleTable"
-  VoteSpacesTabs:
+  UserLogin:
     Type: "AWS::Serverless::Function"
     Properties:
       Runtime: nodejs8.10
