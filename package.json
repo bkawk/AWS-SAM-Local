@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "generate": "sam local generate-event apigateway --region us-east-1",
+    "generate": "sam local generate-event apigateway aws-proxy",
     "invoke": "sam local invoke -e event.json --debug-port 5858 UserLogin --region us-east-1"
   },
   "repository": {
