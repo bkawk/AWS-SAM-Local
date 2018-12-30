@@ -12,7 +12,7 @@ Resources:
       # This is the Lambda function's handler.
       Handler: index.handler
       # The location of the Lambda function code.
-      CodeUri: ./src
+      CodeUri: ./
       Policies: AmazonDynamoDBFullAccess
       Environment:
         Variables:
