@@ -1,0 +1,23 @@
+{
+  "name": "aws-sam-local",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkawk/AWS-SAM-Local.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bkawk/AWS-SAM-Local/issues"
+  },
+  "homepage": "https://github.com/bkawk/AWS-SAM-Local#readme",
+  "dependencies": {
+    "aws-sdk": "^2.382.0",
+    "bluebird": "^3.5.3"
+  }
+}
